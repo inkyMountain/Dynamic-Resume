@@ -6,9 +6,34 @@
     <title>动态简历</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/init.css">
+    <link id="prismCss" rel="stylesheet">
+    <style id="styleTag">
+        
+    </style>
 </head>
 <body>
-    111
+    <section id="text">
+        <pre id="preview">
+
+        </pre>
+    </section>
+    <section id="pixels" style="opacity: 0">
+        <article id="pokemon1" class="backboard Charmander"></article>
+        <article id="pokemon2" class="backboard Squirtle"></article>
+        <article id="pokemon3" class="backboard Bulbasaur"></article>
+    </section>
+    <section id="resume_wrapper">
+        <article>
+            <pre id="resume">
+
+            </pre>
+        </article>
+    </section>
 </body>
+
+
+<script src="js/prism.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="js/main.js"></script>
 </html>
